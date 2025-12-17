@@ -1,13 +1,13 @@
 const cobra = {
     tamanho:10,
     comprimento:10,
-    taxaCrescimento:5,
-    velocidade:1,
-    cor: "white",
+    taxaCrescimento:20,
+    velocidade:3,
+    cor: "red",
     direcao:"direita",
     x:[180],
     y:[330],
-    vida: 3,
+    vida: 5,
     desenhar(){
         ctx.fillStyle=this.cor;
         for (let i = 0; i < this.x.length; ++i)

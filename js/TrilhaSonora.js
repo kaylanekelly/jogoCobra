@@ -1,11 +1,11 @@
 class TrilhaSonora {
     constructor(){
         this.jogandoJogo = new Audio();
-        this.jogandoJogo.src= "mp3\\trilha.mp3";
+        this.jogandoJogo.src= "mp3\\musicafundo.mp3";
         this.cobraComeu = new Audio();
-        this.cobraComeu.src= "mp3\\comida.mp3";
+        this.cobraComeu.src= "mp3\\coleta.mp3";
         this.fimJogo = new Audio();
-        this.fimJogo.src= "mp3\\gameover.mp3";
+        this.fimJogo.src= "mp3\\morte.mp3";
     }
     tocar(trilha){
         if (trilha == "jogandoJogo") this.jogandoJogo.play();
